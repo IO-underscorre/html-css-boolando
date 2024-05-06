@@ -8,3 +8,83 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
+
+body {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.h-align-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 87.5rem;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #ff6900;
+    box-shadow: 0 0.5rem 1rem #00000050;
+}
+
+.nav-bar {
+    min-height: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffff;
+    font-size: 1.75rem;
+}
+
+.nav-bar a {
+    display: inline-block;
+}
+
+.category-bar {
+    flex-basis: 40%;
+
+    font-weight: 600;
+}
+
+.category-bar > a {
+    margin-right: 0.5em;
+    padding: 0.25em 0;
+    border-bottom: 0.1em solid #ffffff00;
+}
+
+.category-bar > a:hover {
+    border-bottom: 0.1em solid #ffffff;
+}
+
+.category-bar > a:active {
+    border-bottom: 0.1em solid #000000;
+    color: #000000;
+}
+
+.nav-bar > a {
+    height: 1.5em;
+}
+
+.nav-bar img {
+    height: 100%;
+}
+
+.personal-area-bar {
+    flex-basis: 40%;
+
+    text-align: right;
+}
+
+.personal-area-bar > a {
+    width: 1.5em;
+    margin-right: 0.5em;
+    padding: 0.25em 0;
+}
+
+.personal-area-bar > a:active {
+    color: #000000;
+}
