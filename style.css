@@ -133,7 +133,7 @@ main {
     width: 100%;
 }
 
-.card .display-hover {
+.display-hover {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -146,7 +146,7 @@ main {
 }
 
 /* Favorite button of a card */
-.card .favorite-item {
+.favorite-item {
     position: absolute;
     top: 5%;
     right: 0%;
@@ -158,12 +158,12 @@ main {
     border-radius: 0.25em 0 0 0.25em;
 }
 
-.card .favorite-item:hover {
+.favorite-item:hover {
     color: #8a1919;
 }
 
 /* Tags of a card */
-.card .tags-container {
+.tags-container {
     position: absolute;
     bottom: 5%;
     left: 0%;
@@ -209,17 +209,17 @@ main {
     font-weight: 700;
 }
 
-.card .price {
+.price {
     color: #ff0000;
     display: inline-block;
 }
 
-.card.discount .price > span {
+.discount .price > span {
     text-decoration: line-through;
     color: #000000;
 }
 
-.card.discount .price::before {
+.discount .price::before {
     color: #ff0000;
 }
 
