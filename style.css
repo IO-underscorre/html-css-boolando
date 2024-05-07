@@ -10,6 +10,14 @@ a {
     text-decoration: inherit;
 }
 
+ul {
+    list-style: none;
+}
+
+h1 , h2 {
+    font-size: inherit;
+}
+
 body {
     font-family: "Cabin", sans-serif;
     font-optical-sizing: auto;
@@ -111,13 +119,13 @@ main {
 .card {
     font-size: 0.75rem;
     flex-basis: calc((100% / 3) - 1rem);
-    margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
+    margin-bottom: 2em;
+    border-radius: 1em;
     overflow: hidden;
 }
 
 .card:hover {
-    box-shadow: 0 0.25rem 0.5rem #00000050;
+    box-shadow: 0 0.3em 0.6em #00000050;
 }
 
 .card > *:last-child , .card > *:first-child {
@@ -151,7 +159,7 @@ main {
     top: 5%;
     right: 0%;
     z-index: 2;
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #555555;
     padding: 0.25em 0.5em;
     background-color: #ffffff;
@@ -168,7 +176,7 @@ main {
     bottom: 5%;
     left: 0%;
     z-index: 2;
-    font-size: 1.25em;
+    font-size: 0.9rem;
 }
 
 .tags-container::after , .tags-container::before {
@@ -217,6 +225,7 @@ main {
 .discount .price > span {
     text-decoration: line-through;
     color: #000000;
+    font-weight: 400;
 }
 
 .discount .price::before {
@@ -239,3 +248,33 @@ main {
 
 
 /* Footer */
+footer {
+    background-color: #000000;
+    padding-bottom: 0.25rem;
+}
+
+.legal-information-box b {
+    font-size: 1.75rem;
+}
+
+.legal-information-box li {
+    font-size: 1.125rem;
+    display: inline-block;
+}
+
+.legal-information-box li:hover {
+    text-decoration: underline;
+}
+
+.socials-box {
+    text-align: center;
+}
+
+.socials-box span {
+    font-size: 1.25rem;
+}
+
+.socials-box li {
+    font-size: 2rem;
+    display: inline-block;
+}
